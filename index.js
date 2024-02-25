@@ -49,6 +49,6 @@ app.get("/", (req, res) => {
     res.send("<h1>Welcome to Blacklight assignment deployement </h1>");
 });
 
-// app.listen(8080, () => {
-//     console.log('Server is running at http://localhost:8080');
-// });
+app.listen(8080, () => {
+    console.log('Server is running at http://localhost:8080');
+});
